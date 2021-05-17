@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "647793920541",
+    "firebase_url": "https://the-darkroom-app.firebaseio.com",
+    "project_id": "the-darkroom-app",
+    "storage_bucket": "the-darkroom-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647793920541:android:0e4da1d926553d8e9f94f4",
+        "android_client_info": {
+          "package_name": "com.thedarkroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647793920541-sagfa3qep5qiqabea8ce5gog99kn0keh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thedarkroom",
+            "certificate_hash": "0dfdb07f4868071c39afdc8d7ce3141fc69c10a9"
+          }
+        },
+        {
+          "client_id": "647793920541-iv12ahvnkr9smqn5rjr8j2f2tm0du817.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thedarkroom",
+            "certificate_hash": "b3ac190e6acfb533c644db705805222df43dfac7"
+          }
+        },
+        {
+          "client_id": "647793920541-h09ps4u90n5t80jc06s4s484cc1tsdvs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5U3aCb9O_rGnrEQHf2pmg2kdg2EvTAA8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647793920541-h09ps4u90n5t80jc06s4s484cc1tsdvs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "647793920541-82saff6g3sa7falui7chi68ju28jl5v1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.thedarkroom",
+                "app_store_id": "1528784514"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,155 @@
+POST https://thedarkroom.com/api/api/v1/auth/signIn
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "email" : "kaswan434343@gmail.com",
+  "password" : "lfV92VrlxpiL",
+  "device_name" : "test"
+}
+
+###
+
+POST https://thedarkroom.com/api/api/v1/auth/signIn
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "email" : "mferrara@gmail.com",
+  "password" : "eaCNUymYC@Coo1c",
+  "device_name" : "test"
+}
+
+###
+GET https://thedarkroom.com/api/api/v1/profile
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Bearer 16|CvEn5XrBxc4zLkcu8S8O1T9gN4V8T40xOHIQsQdchDeu7RmmAO1jHDFVuIGvyHLViXgq4wSYW42ih6G5
+
+###
+GET https://thedarkroom.com/api/api/v1/notifications
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Bearer 16|CvEn5XrBxc4zLkcu8S8O1T9gN4V8T40xOHIQsQdchDeu7RmmAO1jHDFVuIGvyHLViXgq4wSYW42ih6G5
+
+###
+GET https://thedarkroom.com/api/api/v1/notifications/unseen
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Bearer 16|CvEn5XrBxc4zLkcu8S8O1T9gN4V8T40xOHIQsQdchDeu7RmmAO1jHDFVuIGvyHLViXgq4wSYW42ih6G5
+
+###
+GET https://thedarkroom.com/api/api/v1/downloads
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Bearer 16|CvEn5XrBxc4zLkcu8S8O1T9gN4V8T40xOHIQsQdchDeu7RmmAO1jHDFVuIGvyHLViXgq4wSYW42ih6G5
+###
+
+GET https://thedarkroom.com/api/api/v1/albums
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Bearer 16|CvEn5XrBxc4zLkcu8S8O1T9gN4V8T40xOHIQsQdchDeu7RmmAO1jHDFVuIGvyHLViXgq4wSYW42ih6G5
+
+###
+
+GET https://thedarkroom.com/api/api/v1/albums/201729/rolls
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Bearer 16|CvEn5XrBxc4zLkcu8S8O1T9gN4V8T40xOHIQsQdchDeu7RmmAO1jHDFVuIGvyHLViXgq4wSYW42ih6G5
+
+###
+
+PUT https://thedarkroom.com/api/api/v1/albums/338200/rolls/18819
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Bearer 6|PmoIdEKQpN9MFVRNb4LTDq2i4UY42EgJ4VmplyI5RXnOkUjVUviJCBzwELGB8hD1kjF5P1Y0xLAB5Z1D
+
+{
+  "id": "25159",
+  "name": "Updated"
+}
+###
+
+PUT https://thedarkroom.com/api/api/v1/albums/36374
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Bearer 47|lejE6yXaVkvdXX9ewJDIVxnSiGtRYscrLUWJfSV1H1sTM6hSXABGVAmQc1FVBxqD1ePrRNDYGJcv27M6
+
+{
+  "id": "36374",
+  "name": "Updated album"
+}
+###
+
+PUT https://thedarkroom.com/api/api/v1/albums/36374/rolls/25159/images/2057532
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Bearer 47|lejE6yXaVkvdXX9ewJDIVxnSiGtRYscrLUWJfSV1H1sTM6hSXABGVAmQc1FVBxqD1ePrRNDYGJcv27M6
+
+{
+  "id": "2057532",
+  "liked": true
+}
+
+###
+
+PUT https://thedarkroom.com/api/api/v1/albums/36374/rolls/25159/images/2057532/rotate
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Bearer 47|lejE6yXaVkvdXX9ewJDIVxnSiGtRYscrLUWJfSV1H1sTM6hSXABGVAmQc1FVBxqD1ePrRNDYGJcv27M6
+
+{
+  "id": "2057532",
+  "rotationAngle": 90
+}
+
+###
+
+DELETE https://thedarkroom.com/api/api/v1/albums/36374/rolls/25159/images
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Bearer 47|lejE6yXaVkvdXX9ewJDIVxnSiGtRYscrLUWJfSV1H1sTM6hSXABGVAmQc1FVBxqD1ePrRNDYGJcv27M6
+
+{
+  "imageIds" : [2057532]
+}
+
+###
+
+POST https://fcm.googleapis.com/fcm/send
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: key=AAAAltOGyh0:APA91bH1G6byP774ZO6_bM-sEVoxhGhNosvgGUM-aQhpNeOqPBK6Gm3kJ6fwWGd451diqeWB-Qd-YJdmJt9owqnund86WmUyBOtUo0cJYHXRkID21UhmRaQtQkihcCawldBookcFj1Us
+
+{
+ "to" : "fDsuGMjrp0v-mXnlUK2dmx:APA91bG8Q9pROvlUtIJId_LexYofyjjMKGJ_Hus3---k9ncVThJKen9wVvSMMovyxS9d8CK-nVkGutHyNRLD3WI9bvTCG_0036WTTDP2zquYc9ZYZrInt_KzzORijRc8T7ecBQS9gOPI",
+  "priority" : "high",
+  "notification" :
+  {
+    "title" : "test",
+    "body" : "test",
+    "badge" : "10"
+  },
+  "data" : {
+    "orderId" : "...",
+    "albumId" : "...",
+    "downloadId" : "...",
+    "badge" : "10"
+  }
+}
+
+###
